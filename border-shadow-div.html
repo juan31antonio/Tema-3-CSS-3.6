@@ -24,23 +24,42 @@
       */
       /* Distancia entre sombras de 5px. */
       div:nth-child(1) {
-        box-shadow: 5px 5px 5px rgba(240, 46, 170, 0.4)  
+        box-shadow: 5px 5px 1px rgba(240, 46, 170, 0.4),
+        10px 10px 1px rgba(240, 46, 170, 0.3), 
+        15px 15px 1px rgba(240, 46, 170, 0.2),
+        20px 20px 1px rgba(240, 46, 170, 0.1),
+        25px 25px 1px rgba(240, 46, 170, 0.05);
       }
 
       div:nth-child(2) {
+        box-shadow: 0px 5px 1px rgba(240, 46, 170, 0.4),
+        0px 10px 1px rgba(240, 46, 170, 0.3), 
+        0px 15px 1px rgba(240, 46, 170, 0.2),
+        0px 20px 1px rgba(240, 46, 170, 0.1),
+        0px 25px 1px rgba(240, 46, 170, 0.05);
       }
 
       div:nth-child(3) {
+        box-shadow: -5px 5px 1px rgba(240, 46, 170, 0.4),
+        -10px 10px 1px rgba(240, 46, 170, 0.3), 
+        -15px 15px 1px rgba(240, 46, 170, 0.2),
+        -20px 20px 1px rgba(240, 46, 170, 0.1),
+        -25px 25px 1px rgba(240, 46, 170, 0.05);
       }
 
       div:nth-child(4) {
+        box-shadow: 0px 5px 1px rgba(240, 46, 170, 0.4),
+        0px 10px 1px rgba(240, 46, 170, 0.3), 
+        0px 15px 1px rgba(240, 46, 170, 0.2),
+        0px 20px 1px rgba(240, 46, 170, 0.1),
+        0px 25px 1px rgba(240, 46, 170, 0.05);
       }
 
       /* Escala de colores:
         blue,
         rgb(255, 255, 255), 
         rgb(31, 193, 27), 
-        rgb(255, 255, 255), 
+        rgb(255, 255, 255),  
         rgb(255, 217, 19), 
         rgb(255, 255, 255), 
         rgb(255, 156, 85), 
@@ -50,6 +69,11 @@
       /* Prolongación de cada capas de 3px. */
       div:nth-child(5) {
         background-color: #FFF;
+        box-shadow: 0px 0px 1px 3px blue,
+        0px 0px 1px 6px rgb(31, 193, 27),
+        0px 0px 1px 9px rgb(255, 217, 19), 
+        0px 0px 1px 12px rgb(255, 156, 85), 
+        0px 0px 1px 15px rgb(255, 85, 85);
       }
 
       /* Escala de colores:
@@ -65,6 +89,17 @@
       */
       div:nth-child(6) {
         background-color: #FFF;
+        box-shadow: 0px 0px 0px 1px blue,
+        5px -5px 0px white,
+        5px -5px 0px 1px rgb(31, 193, 27),
+        10px -10px 0px white,
+        10px -10px 0px 1px rgb(255, 217, 19),
+        15px -15px 0px white,
+        15px -15px 0px 1px rgb(255, 156, 85),
+        20px -20px 0px white,
+        20px -20px 0px 1px rgb(255, 85, 85);
+
+        
       }
 
       div:nth-child(7) {
